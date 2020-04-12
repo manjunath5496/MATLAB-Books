@@ -43,11 +43,21 @@
 	
 <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(27).pdf" style="text-decoration:none;">MATLAB Codes for Finite Element Analysis</a></li>
   <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(28).pdf" style="text-decoration:none;">MATLAB Demystified</a></li>
- <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(29).pdf" style="text-decoration:none;">MATLAB: Object-Oriented Programmingb</a></li>	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(29).pdf" style="text-decoration:none;">MATLAB: Object-Oriented Programming</a></li>	
 	
  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(30).pdf" style="text-decoration:none;">MATLAB: Programming Fundamentals</a></li>
 	
  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(31).pdf" style="text-decoration:none;">MATLAB: Mathematics</a></li>
+	
+<li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(32).pdf" style="text-decoration:none;">MATLAB Recipes for Earth Sciences </a></li>
+	
+<li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(33).pdf" style="text-decoration:none;">MATLAB Codes for Finite Element Analysis</a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(34).pdf" style="text-decoration:none;">MATLAB For Dummies</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(35).pdf" style="text-decoration:none;">Mechanisms and Robots Analysis with MATLAB</a></li>	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(36).pdf" style="text-decoration:none;">Modeling of Photovoltaic Systems Using MATLAB</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(37).pdf" style="text-decoration:none;">Multivariable Calculus with MATLAB</a></li>
 	
 	
 	
