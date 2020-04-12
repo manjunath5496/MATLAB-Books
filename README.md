@@ -138,8 +138,15 @@
  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(72).rar" style="text-decoration:none;">Magnetics, Dielectrics, and Wave Propagation with MATLAB Codes</a></li>
 
 
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(73).pdf" style="text-decoration:none;">Engineering Optics with MATLAB</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(74).pdf" style="text-decoration:none;">Essential MATLAB for Engineers and Scientists</a></li>
 
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(75).pdf" style="text-decoration:none;">MATLAB Primer</a></li>
 
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(76).pdf" style="text-decoration:none;">Optimization in Practice with MATLAB: For Engineering Students and Professionals</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(77).pdf" style="text-decoration:none;">Robust Control Design with MATLAB</a></li>
 
 	
 	
