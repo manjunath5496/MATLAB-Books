@@ -136,6 +136,33 @@
 </table>
 </br>
 
+<div class="toctitle" dir="ltr" lang="en">
+<h2 id="mw-toc-heading">Contents</h2>
+<label class="toctogglelabel" for="toctogglecheckbox"></label></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Syntax"><span class="toctext">Syntax</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Variables"><span class="toctext">Variables</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Vectors_and_matrices"><span class="toctext">Vectors and matrices</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Structures"><span class="toctext">Structures</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Functions"><span class="toctext">Functions</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Function_handles"><span class="toctext">Function handles</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Classes_and_object-oriented_programming"><span class="toctext">Classes and object-oriented programming</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Graphics_and_graphical_user_interface_programming"><span class="toctext">Graphics and graphical user interface programming</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Interfacing_with_other_languages"><span class="toctext">Interfacing with other languages</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Alternatives"><span class="toctext">Alternatives</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Release_history"><span class="toctext">Release history</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Books"><span class="toctext">Books</span></a></li>
+</ul>
+
+
+
+
+
+</br>
 <h2><span id="History" class="mw-headline">History</span></h2>
 <p><a title="Cleve Moler" href="https://en.wikipedia.org/wiki/Cleve_Moler">Cleve Moler</a>, the chairman of the&nbsp;<a title="Computer science" href="https://en.wikipedia.org/wiki/Computer_science">computer science</a>&nbsp;department at the&nbsp;<a title="University of New Mexico" href="https://en.wikipedia.org/wiki/University_of_New_Mexico">University of New Mexico</a>, started developing MATLAB in the late 1970s.&nbsp;He designed it to give his students access to&nbsp;<a title="LINPACK" href="https://en.wikipedia.org/wiki/LINPACK">LINPACK</a>&nbsp;and&nbsp;<a title="EISPACK" href="https://en.wikipedia.org/wiki/EISPACK">EISPACK</a>&nbsp;without them having to learn&nbsp;<a title="Fortran" href="https://en.wikipedia.org/wiki/Fortran">Fortran</a>. It soon spread to other universities and found a strong audience within the&nbsp;<a title="Applied mathematics" href="https://en.wikipedia.org/wiki/Applied_mathematics">applied mathematics</a>&nbsp;community.&nbsp;<a title="John N. Little" href="https://en.wikipedia.org/wiki/John_N._Little">Jack Little</a>, an engineer, was exposed to it during a visit Moler made to&nbsp;<a title="Stanford University" href="https://en.wikipedia.org/wiki/Stanford_University">Stanford University</a>&nbsp;in 1983. Recognizing its commercial potential, he joined with Moler and Steve Bangert. They rewrote MATLAB in&nbsp;<a title="C (programming language)" href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>&nbsp;and founded&nbsp;<a title="MathWorks" href="https://en.wikipedia.org/wiki/MathWorks">MathWorks</a>&nbsp;in 1984 to continue its development. These rewritten libraries were known as JACKPAC.&nbsp;In 2000, MATLAB was rewritten to use a newer set of libraries for matrix manipulation,&nbsp;<a title="LAPACK" href="https://en.wikipedia.org/wiki/LAPACK">LAPACK</a>.</p>
 <p>MATLAB was first adopted by researchers and practitioners in&nbsp;<a title="Control engineering" href="https://en.wikipedia.org/wiki/Control_engineering">control engineering</a>, Little's specialty, but quickly spread to many other domains. It is now also used in education, in particular the teaching of&nbsp;<a title="Linear algebra" href="https://en.wikipedia.org/wiki/Linear_algebra">linear algebra</a>&nbsp;and&nbsp;<a title="Numerical analysis" href="https://en.wikipedia.org/wiki/Numerical_analysis">numerical analysis</a>, and is popular amongst scientists involved in&nbsp;<a class="mw-redirect" title="Image processing" href="https://en.wikipedia.org/wiki/Image_processing">image processing</a>.</p>
