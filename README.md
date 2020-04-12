@@ -134,7 +134,158 @@
 </tr>
 </tbody>
 </table>
+</br>
 
+<h2><span id="History" class="mw-headline">History</span></h2>
+<p><a title="Cleve Moler" href="https://en.wikipedia.org/wiki/Cleve_Moler">Cleve Moler</a>, the chairman of the&nbsp;<a title="Computer science" href="https://en.wikipedia.org/wiki/Computer_science">computer science</a>&nbsp;department at the&nbsp;<a title="University of New Mexico" href="https://en.wikipedia.org/wiki/University_of_New_Mexico">University of New Mexico</a>, started developing MATLAB in the late 1970s.&nbsp;He designed it to give his students access to&nbsp;<a title="LINPACK" href="https://en.wikipedia.org/wiki/LINPACK">LINPACK</a>&nbsp;and&nbsp;<a title="EISPACK" href="https://en.wikipedia.org/wiki/EISPACK">EISPACK</a>&nbsp;without them having to learn&nbsp;<a title="Fortran" href="https://en.wikipedia.org/wiki/Fortran">Fortran</a>. It soon spread to other universities and found a strong audience within the&nbsp;<a title="Applied mathematics" href="https://en.wikipedia.org/wiki/Applied_mathematics">applied mathematics</a>&nbsp;community.&nbsp;<a title="John N. Little" href="https://en.wikipedia.org/wiki/John_N._Little">Jack Little</a>, an engineer, was exposed to it during a visit Moler made to&nbsp;<a title="Stanford University" href="https://en.wikipedia.org/wiki/Stanford_University">Stanford University</a>&nbsp;in 1983. Recognizing its commercial potential, he joined with Moler and Steve Bangert. They rewrote MATLAB in&nbsp;<a title="C (programming language)" href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>&nbsp;and founded&nbsp;<a title="MathWorks" href="https://en.wikipedia.org/wiki/MathWorks">MathWorks</a>&nbsp;in 1984 to continue its development. These rewritten libraries were known as JACKPAC.&nbsp;In 2000, MATLAB was rewritten to use a newer set of libraries for matrix manipulation,&nbsp;<a title="LAPACK" href="https://en.wikipedia.org/wiki/LAPACK">LAPACK</a>.</p>
+<p>MATLAB was first adopted by researchers and practitioners in&nbsp;<a title="Control engineering" href="https://en.wikipedia.org/wiki/Control_engineering">control engineering</a>, Little's specialty, but quickly spread to many other domains. It is now also used in education, in particular the teaching of&nbsp;<a title="Linear algebra" href="https://en.wikipedia.org/wiki/Linear_algebra">linear algebra</a>&nbsp;and&nbsp;<a title="Numerical analysis" href="https://en.wikipedia.org/wiki/Numerical_analysis">numerical analysis</a>, and is popular amongst scientists involved in&nbsp;<a class="mw-redirect" title="Image processing" href="https://en.wikipedia.org/wiki/Image_processing">image processing</a>.</p>
+<h2><span id="Syntax" class="mw-headline">Syntax</span></h2>
+<p>The MATLAB application is built around the MATLAB programming language. Common usage of the MATLAB application involves using the "Command Window" as an interactive mathematical&nbsp;<a class="mw-redirect" title="Command line interface" href="https://en.wikipedia.org/wiki/Command_line_interface">shell</a>&nbsp;or executing text files containing MATLAB code.</p>
+<h3><span id="Variables" class="mw-headline">Variables</span></h3>
+<p>Variables are defined using the assignment operator,&nbsp;<code>=</code>. MATLAB is a&nbsp;<a title="Strong and weak typing" href="https://en.wikipedia.org/wiki/Strong_and_weak_typing">weakly typed</a>&nbsp;programming language because types are implicitly converted.&nbsp;It is an inferred typed language because variables can be assigned without declaring their type, except if they are to be treated as symbolic objects,&nbsp;and that their type can change. Values can come from&nbsp;<a class="mw-redirect" title="Constant (computer science)" href="https://en.wikipedia.org/wiki/Constant_(computer_science)">constants</a>, from computation involving values of other variables, or from the output of a function. For example:</p>
+<div class="mw-highlight mw-highlight-lang-matlabsession mw-content-ltr" dir="ltr">
+<pre><span class="gp">&gt;&gt; </span><span class="n">x</span> <span class="p">=</span> <span class="mi">17</span>
+<span class="go">x =</span>
+<span class="go"> 17</span>
+
+<span class="gp">&gt;&gt; </span><span class="n">x</span> <span class="p">=</span> <span class="s">'hat'</span>
+<span class="go">x =</span>
+<span class="go">hat</span>
+
+<span class="gp">&gt;&gt; </span><span class="n">x</span> <span class="p">=</span> <span class="p">[</span><span class="mi">3</span><span class="o">*</span><span class="mi">4</span><span class="p">,</span> <span class="nb">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">x =</span>
+<span class="go">   12.0000    1.5708</span>
+
+<span class="gp">&gt;&gt; </span><span class="n">y</span> <span class="p">=</span> <span class="mi">3</span><span class="o">*</span><span class="nb">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="go">y =</span>
+<span class="go">   -1.6097    3.0000</span>
+</pre>
+</div>
+<h3><span id="Vectors_and_matrices" class="mw-headline">Vectors and matrices</span></h3>
+<p>A simple array is defined using the colon syntax:&nbsp;<em>initial</em><code>:</code><em>increment</em><code>:</code><em>terminator</em>. For instance:</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="o">&gt;&gt;</span> <span class="n">array</span> <span class="p">=</span> <span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">:</span><span class="mi">9</span>
+<span class="n">array</span> <span class="p">=</span>
+<span class="n"> 1 </span><span class="s">3 5 7 9</span>
+</pre>
+</div>
+<p>defines a variable named&nbsp;<code>array</code>&nbsp;(or assigns a new value to an existing variable with the name&nbsp;<code>array</code>) which is an array consisting of the values 1, 3, 5, 7, and 9. That is, the array starts at 1 (the&nbsp;<em>initial</em>&nbsp;value), increments with each step from the previous value by 2 (the&nbsp;<em>increment</em>&nbsp;value), and stops once it reaches (or to avoid exceeding) 9 (the&nbsp;<em>terminator</em>&nbsp;value).</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="o">&gt;&gt;</span> <span class="n">array</span> <span class="p">=</span> <span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mi">9</span>
+<span class="n">array</span> <span class="p">=</span>
+<span class="n"> 1 </span><span class="s">4 7</span>
+</pre>
+</div>
+<p>the&nbsp;<em>increment</em>&nbsp;value can actually be left out of this syntax (along with one of the colons), to use a default value of 1.</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="o">&gt;&gt;</span> <span class="n">ari</span> <span class="p">=</span> <span class="mi">1</span><span class="p">:</span><span class="mi">5</span>
+<span class="n">ari</span> <span class="p">=</span>
+<span class="n"> 1 </span><span class="s">2 3 4 5</span>
+</pre>
+</div>
+<p>assigns to the variable named&nbsp;<code>ari</code>&nbsp;an array with the values 1, 2, 3, 4, and 5, since the default value of 1 is used as the increment.</p>
+<p><a class="mw-redirect" title="One-based indexing" href="https://en.wikipedia.org/wiki/One-based_indexing">Indexing</a>&nbsp;is one-based,&nbsp;which is the usual convention for&nbsp;<a title="Matrix (mathematics)" href="https://en.wikipedia.org/wiki/Matrix_(mathematics)">matrices</a>&nbsp;in mathematics, unlike zero-based indexing commonly used in other programming languages such as C, C++, and Java.</p>
+<p>Matrices can be defined by separating the elements of a row with blank space or comma and using a semicolon to terminate each row. The list of elements should be surrounded by square brackets&nbsp;<code>[]</code>. Parentheses&nbsp;<code>()</code>&nbsp;are used to access elements and subarrays (they are also used to denote a function argument list).</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="o">&gt;&gt;</span> <span class="n">A</span> <span class="p">=</span> <span class="p">[</span><span class="mi">16</span> <span class="mi">3</span> <span class="mi">2</span> <span class="mi">13</span><span class="p">;</span><span class="n"> 5 </span><span class="s">10 11 8</span><span class="p">;</span><span class="n"> 9 </span><span class="s">6 7 12</span><span class="p">;</span><span class="n"> 4 </span><span class="s">15 14 1]</span>
+<span class="n">A</span> <span class="p">=</span>
+<span class="n"> 16  </span><span class="s">3  2 13</span>
+<span class="n">  5 </span><span class="s">10 11  8</span>
+<span class="n">  9  </span><span class="s">6  7 12</span>
+<span class="n">  4 </span><span class="s">15 14  1</span>
+
+<span class="o">&gt;&gt;</span> <span class="n">A</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">ans</span> <span class="p">=</span>
+<span class="n"> 11</span>
+</pre>
+</div>
+<p>Sets of indices can be specified by expressions such as&nbsp;<code>2:4</code>, which evaluates to&nbsp;<code>[2, 3, 4]</code>. For example, a submatrix taken from rows 2 through 4 and columns 3 through 4 can be written as:</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="o">&gt;&gt;</span> <span class="n">A</span><span class="p">(</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">:</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">ans</span> <span class="p">=</span>
+<span class="n"> 11 </span><span class="s">8</span>
+<span class="n"> 7 </span><span class="s">12</span>
+<span class="n"> 14 </span><span class="s">1</span>
+</pre>
+</div>
+<p>A square&nbsp;<a title="Identity matrix" href="https://en.wikipedia.org/wiki/Identity_matrix">identity matrix</a>&nbsp;of size&nbsp;<em>n</em>&nbsp;can be generated using the function&nbsp;<code>eye</code>, and matrices of any size with zeros or ones can be generated with the functions&nbsp;<code>zeros</code>&nbsp;and&nbsp;<code>ones</code>, respectively.</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="o">&gt;&gt;</span> <span class="nb">eye</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">ans</span> <span class="p">=</span>
+<span class="n"> 1 </span><span class="s">0 0</span>
+<span class="n"> 0 </span><span class="s">1 0</span>
+<span class="n"> 0 </span><span class="s">0 1</span>
+
+<span class="o">&gt;&gt;</span> <span class="nb">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">ans</span> <span class="p">=</span>
+<span class="n"> 0 </span><span class="s">0 0</span>
+<span class="n"> 0 </span><span class="s">0 0</span>
+
+<span class="o">&gt;&gt;</span> <span class="nb">ones</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">ans</span> <span class="p">=</span>
+<span class="n"> 1 </span><span class="s">1 1</span>
+<span class="n"> 1 </span><span class="s">1 1</span>
+</pre>
+</div>
+<p><a title="Transpose" href="https://en.wikipedia.org/wiki/Transpose">Transposing</a>&nbsp;a vector or a matrix is done either by the function&nbsp;<code>transpose</code>&nbsp;or by adding dot-prime after the matrix (without the dot, prime will perform&nbsp;<a title="Conjugate transpose" href="https://en.wikipedia.org/wiki/Conjugate_transpose">conjugate transpose</a>&nbsp;for complex arrays):</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="o">&gt;&gt;</span> <span class="n">A</span> <span class="p">=</span> <span class="p">[</span><span class="mi">1</span> <span class="p">;</span> <span class="mi">2</span><span class="p">],</span>  <span class="n">B</span> <span class="p">=</span> <span class="n">A</span><span class="p">.</span><span class="o">'</span><span class="p">,</span> <span class="n">C</span> <span class="p">=</span> <span class="n">transpose</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="n">A</span> <span class="p">=</span>
+<span class="n">     1</span>
+     <span class="s">2</span>
+<span class="n">B</span> <span class="p">=</span>
+<span class="n">     1     </span><span class="s">2</span>
+<span class="n">C</span> <span class="p">=</span>
+<span class="n">     1     </span><span class="s">2</span>
+
+<span class="o">&gt;&gt;</span> <span class="n">D</span> <span class="p">=</span> <span class="p">[</span><span class="mi">0</span> <span class="mi">3</span> <span class="p">;</span><span class="n"> 1 </span><span class="s">5], D.</span><span class="o">'</span>
+<span class="n">D</span> <span class="p">=</span>
+<span class="n">     0     </span><span class="s">3</span>
+<span class="n">     1     </span><span class="s">5</span>
+<span class="nb">ans</span> <span class="p">=</span>
+<span class="n">     0     </span><span class="s">1</span>
+<span class="n">     3     </span><span class="s">5</span>
+</pre>
+</div>
+<p>Most functions accept arrays as input and operate element-wise on each element. For example,&nbsp;<code>mod(2*J,n)</code>&nbsp;will multiply every element in&nbsp;<em>J</em>&nbsp;by 2, and then reduce each element modulo&nbsp;<em>n</em>. MATLAB does include standard&nbsp;<code>for</code>&nbsp;and&nbsp;<code>while</code>&nbsp;loops, but (as in other similar applications such as&nbsp;<a title="R (programming language)" href="https://en.wikipedia.org/wiki/R_(programming_language)">R</a>), using the&nbsp;<a title="Array programming" href="https://en.wikipedia.org/wiki/Array_programming">vectorized</a>&nbsp;notation is encouraged and is often faster to execute. The following code, excerpted from the function&nbsp;<em>magic.m</em>, creates a&nbsp;<a title="Magic square" href="https://en.wikipedia.org/wiki/Magic_square">magic square</a>&nbsp;<em>M</em>&nbsp;for odd values of&nbsp;<em>n</em>&nbsp;(MATLAB function&nbsp;<code>meshgrid</code>&nbsp;is used here to generate square matrices&nbsp;<em>I</em>&nbsp;and&nbsp;<em>J</em>&nbsp;containing&nbsp;<em>1:n</em>).</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="p">[</span><span class="n">J</span><span class="p">,</span><span class="n">I</span><span class="p">]</span> <span class="p">=</span> <span class="nb">meshgrid</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="n">n</span><span class="p">);</span>
+<span class="n">A</span> <span class="p">=</span> <span class="nb">mod</span><span class="p">(</span><span class="n">I</span> <span class="o">+</span> <span class="n">J</span> <span class="o">-</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+<span class="n">B</span> <span class="p">=</span> <span class="nb">mod</span><span class="p">(</span><span class="n">I</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">J</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+<span class="n">M</span> <span class="p">=</span> <span class="n">n</span> <span class="o">*</span> <span class="n">A</span> <span class="o">+</span> <span class="n">B</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</pre>
+</div>
+<h3><span id="Structures" class="mw-headline">Structures</span></h3>
+<p>MATLAB supports structure data types.&nbsp;Since all variables in MATLAB are arrays, a more adequate name is "structure array", where each element of the array has the same field names. In addition, MATLAB supports dynamic field names&nbsp;(field look-ups by name, field manipulations, etc.).</p>
+<h3><span id="Functions" class="mw-headline">Functions</span></h3>
+<p>When creating a MATLAB function, the name of the file should match the name of the first function in the file. Valid function names begin with an alphabetic character, and can contain letters, numbers, or underscores. Variables and functions are case sensitive.</p>
+<h3><span id="Function_handles" class="mw-headline">Function handles</span></h3>
+<p>MATLAB supports elements of&nbsp;<a title="Lambda calculus" href="https://en.wikipedia.org/wiki/Lambda_calculus">lambda calculus</a>&nbsp;by introducing function handles,&nbsp;or function references, which are implemented either in .m files or anonymous /nested functions.</p>
+<h3><span id="Classes_and_object-oriented_programming" class="mw-headline">Classes and object-oriented programming</span></h3>
+<p>MATLAB supports&nbsp;<a title="Object-oriented programming" href="https://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented programming</a>&nbsp;including classes, inheritance, virtual dispatch, packages, pass-by-value semantics, and pass-by-reference semantics.&nbsp;However, the syntax and calling conventions are significantly different from other languages. MATLAB has value classes and reference classes, depending on whether the class has&nbsp;<em>handle</em>&nbsp;as a super-class (for reference classes) or not (for value classes).</p>
+<p>Method call behavior is different between value and reference classes. For example, a call to a method</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="n">object</span><span class="p">.</span><span class="n">method</span><span class="p">();</span>
+</pre>
+</div>
+<p>can alter any member of&nbsp;<em>object</em>&nbsp;only if&nbsp;<em>object</em>&nbsp;is an instance of a reference class, otherwise value class methods must return a new instance if it needs to modify the object.</p>
+<p>An example of a simple class is provided below.</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="k">classdef</span> <span class="n">Hello</span>
+<span class="n">    methods</span>
+        <span class="s">function greet(obj)</span>
+            <span class="nb">disp</span><span class="p">(</span><span class="s">'Hello!'</span><span class="p">)</span>
+<span class="n">        end</span>
+    <span class="s">end</span>
+<span class="k">end</span>
+</pre>
+</div>
+<p>When put into a file named&nbsp;<tt>hello.m</tt>, this can be executed with the following commands:</p>
+<div class="mw-highlight mw-highlight-lang-matlabsession mw-content-ltr" dir="ltr">
+<pre><span class="gp">&gt;&gt; </span><span class="n">x</span> <span class="p">=</span> <span class="n">Hello</span><span class="p">();</span>
+<span class="gp">&gt;&gt; </span><span class="n">x</span><span class="p">.</span><span class="n">greet</span><span class="p">();</span>
+<span class="go">Hello!</span></pre>
+</div>
 
 
 
