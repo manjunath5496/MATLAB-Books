@@ -1,3 +1,13 @@
+<p><strong>MATLAB</strong>&nbsp;(<em>matrix laboratory</em>) is a&nbsp;<a class="mw-redirect" title="Multi-paradigm programming language" href="https://en.wikipedia.org/wiki/Multi-paradigm_programming_language">multi-paradigm</a>&nbsp;<a title="Numerical analysis" href="https://en.wikipedia.org/wiki/Numerical_analysis">numerical computing</a>&nbsp;environment and&nbsp;<a class="mw-redirect" title="" href="https://en.wikipedia.org/wiki/Proprietary_programming_language">proprietary programming language</a>&nbsp;developed by&nbsp;<a title="MathWorks" href="https://en.wikipedia.org/wiki/MathWorks">MathWorks</a>. MATLAB allows&nbsp;<a title="Matrix (mathematics)" href="https://en.wikipedia.org/wiki/Matrix_(mathematics)">matrix</a>&nbsp;manipulations, plotting of&nbsp;<a title="Function (mathematics)" href="https://en.wikipedia.org/wiki/Function_(mathematics)">functions</a>&nbsp;and data, implementation of&nbsp;<a title="Algorithm" href="https://en.wikipedia.org/wiki/Algorithm">algorithms</a>, creation of&nbsp;<a title="User interface" href="https://en.wikipedia.org/wiki/User_interface">user interfaces</a>, and interfacing with programs written in other languages.</p>
+<p>Although MATLAB is intended primarily for numerical computing, an optional toolbox uses the&nbsp;<a title="MuPAD" href="https://en.wikipedia.org/wiki/MuPAD">MuPAD</a>&nbsp;<a title="Computer algebra system" href="https://en.wikipedia.org/wiki/Computer_algebra_system">symbolic engine</a>&nbsp;allowing access to&nbsp;<a class="mw-redirect" title="Symbolic computing" href="https://en.wikipedia.org/wiki/Symbolic_computing">symbolic computing</a>&nbsp;abilities. An additional package,&nbsp;<a title="Simulink" href="https://en.wikipedia.org/wiki/Simulink">Simulink</a>, adds graphical multi-domain simulation and&nbsp;<a title="Model-based design" href="https://en.wikipedia.org/wiki/Model-based_design">model-based design</a>&nbsp;for&nbsp;<a title="Dynamical system" href="https://en.wikipedia.org/wiki/Dynamical_system">dynamic</a>&nbsp;and&nbsp;<a title="Embedded system" href="https://en.wikipedia.org/wiki/Embedded_system">embedded systems</a>.</p>
+<p>As of 2018, MATLAB has more than 3 million users worldwide.&nbsp;MATLAB users come from various backgrounds of&nbsp;<a title="Engineering" href="https://en.wikipedia.org/wiki/Engineering">engineering</a>,&nbsp;<a title="Science" href="https://en.wikipedia.org/wiki/Science">science</a>, and&nbsp;<a title="Economics" href="https://en.wikipedia.org/wiki/Economics">economics</a>.</p>
+
+
+
+
+
+
+
 
 </br>
 
