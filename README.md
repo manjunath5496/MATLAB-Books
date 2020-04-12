@@ -114,6 +114,30 @@
  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(62).pdf" style="text-decoration:none;">Matlab by Example</a></li>
 
 
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(63).pdf" style="text-decoration:none;">MATLAB Differential and Integral Calculus</a></li>
+	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(64).pdf" style="text-decoration:none;">MATLAB for Beginners: A Gentle Approach</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(65).pdf" style="text-decoration:none;">MATLAB Guide to Finite Elements</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(66).pdf" style="text-decoration:none;">Applied Speech and Audio Processing: With MATLAB Examples</a></li>
+
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(67).pdf" style="text-decoration:none;">Computational Intelligence Paradigms: Theory and Applications Using MATLAB</a></li>
+	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(68).pdf" style="text-decoration:none;">Electronic Devices and Amplifier Circuits with MATLAB Computing</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(69).pdf" style="text-decoration:none;">Exploratory Data Analysis with MATLAB</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(70).pdf" style="text-decoration:none;">Fuzzy Image Processing and Applications with MATLAB</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(71).pdf" style="text-decoration:none;">Linear Control Systems with solved problems and MATLAB examples</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(72).rar" style="text-decoration:none;">Magnetics, Dielectrics, and Wave Propagation with MATLAB Codes</a></li>
+
+
 
 
 
