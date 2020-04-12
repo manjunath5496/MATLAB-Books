@@ -69,7 +69,32 @@
 	
  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(43).pdf" style="text-decoration:none;">Practical MATLAB Applications for Engineers</a></li>
 	
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(44).pdf" style="text-decoration:none;">Programming for Computations – MATLAB/Octave</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(45).pdf" style="text-decoration:none;">Numerical Analysis Using MATLAB and Spreadsheets</a></li>	
 	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(46).pdf" style="text-decoration:none;">Radar Systems Analysis and Design Using MATLAB</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(47).pdf" style="text-decoration:none;">Scientific Computing with MATLAB and Octave</a></li>
+	
+
+  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(48).pdf" style="text-decoration:none;">Simulation of ODE/PDE Models with MATLAB, OCTAVE and SCILAB</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(49).pdf" style="text-decoration:none;">Computational Nanotechnology Modeling and Applications with MATLAB</a></li>	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(50).pdf" style="text-decoration:none;">Fundamentals of Bioinformatics and Computational Biology: Methods and Exercises in MATLAB</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(51).pdf" style="text-decoration:none;">Introductory Quantum Mechanics with MATLAB</a></li>
+	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(52).pdf" style="text-decoration:none;">Mastering MATLAB</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(53).pdf" style="text-decoration:none;">MATLAB Matrix Algebra</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(54).pdf" style="text-decoration:none;">Model Predictive Control System Design and Implementation Using MATLAB</a></li>
+
+
+
+
 	
 	
 </ul>
