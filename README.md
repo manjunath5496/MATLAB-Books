@@ -373,7 +373,522 @@
 </tbody>
 </table>
 <p>MATLAB supports developing&nbsp;<a title="Graphical user interface" href="https://en.wikipedia.org/wiki/Graphical_user_interface">graphical user interface</a>&nbsp;(GUI) applications.&nbsp;UIs can be generated either programmatically or using visual design environments such as&nbsp;<em>GUIDE</em>&nbsp;and&nbsp;<em>App Designer</em>.</p>
-
+<h2><span id="Interfacing_with_other_languages" class="mw-headline">Interfacing with other languages</span></h2>
+<p>MATLAB can call functions and subroutines written in the programming languages&nbsp;<a title="C (programming language)" href="https://en.wikipedia.org/wiki/C_(programming_language)">C</a>&nbsp;or&nbsp;<a title="Fortran" href="https://en.wikipedia.org/wiki/Fortran">Fortran</a>.&nbsp;A wrapper function is created allowing MATLAB data types to be passed and returned.&nbsp;<a title="MEX file" href="https://en.wikipedia.org/wiki/MEX_file">MEX files</a>&nbsp;(MATLAB executables) are the dynamically loadable object files created by compiling such functions.&nbsp;Since 2014 increasing two-way interfacing with&nbsp;<a title="Python (programming language)" href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>&nbsp;was being added.</p>
+<p>Libraries written in&nbsp;<a title="Perl" href="https://en.wikipedia.org/wiki/Perl">Perl</a>,&nbsp;<a title="Java (programming language)" href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>,&nbsp;<a title="ActiveX" href="https://en.wikipedia.org/wiki/ActiveX">ActiveX</a>&nbsp;or&nbsp;<a title=".NET Framework" href="https://en.wikipedia.org/wiki/.NET_Framework">.NET</a>&nbsp;can be directly called from MATLAB,&nbsp;and many MATLAB libraries (for example&nbsp;<a title="XML" href="https://en.wikipedia.org/wiki/XML">XML</a>&nbsp;or&nbsp;<a title="SQL" href="https://en.wikipedia.org/wiki/SQL">SQL</a>&nbsp;support) are implemented as wrappers around Java or ActiveX libraries. Calling MATLAB from Java is more complicated, but can be done with a MATLAB toolbox&nbsp;which is sold separately by&nbsp;<a title="MathWorks" href="https://en.wikipedia.org/wiki/MathWorks">MathWorks</a>, or using an undocumented mechanism called JMI (Java-to-MATLAB Interface),&nbsp;(which should not be confused with the unrelated&nbsp;<a title="Java Metadata Interface" href="https://en.wikipedia.org/wiki/Java_Metadata_Interface">Java Metadata Interface</a>&nbsp;that is also called JMI). Official MATLAB API for Java was added in 2016.</p>
+<p>As alternatives to the&nbsp;<a title="MuPAD" href="https://en.wikipedia.org/wiki/MuPAD">MuPAD</a>&nbsp;based Symbolic Math Toolbox available from MathWorks, MATLAB can be connected to&nbsp;<a title="Maple (software)" href="https://en.wikipedia.org/wiki/Maple_(software)">Maple</a>&nbsp;or&nbsp;<a class="mw-redirect" title="Mathematica" href="https://en.wikipedia.org/wiki/Mathematica">Mathematica</a>.</p>
+<p>Libraries also exist to import and export&nbsp;<a title="MathML" href="https://en.wikipedia.org/wiki/MathML">MathML</a>.</p>
+<h2><span id="Alternatives" class="mw-headline">Alternatives</span></h2>
+<div class="hatnote navigation-not-searchable">See also:&nbsp;<a class="mw-redirect" title="List of numerical analysis software" href="https://en.wikipedia.org/wiki/List_of_numerical_analysis_software">list of numerical analysis software</a>&nbsp;and&nbsp;<a class="mw-redirect" title="Comparison of numerical analysis software" href="https://en.wikipedia.org/wiki/Comparison_of_numerical_analysis_software">comparison of numerical analysis software</a></div>
+<p>There are a number of competitors to MATLAB. Some notable examples include:</p>
+<ul>
+<li><a class="mw-redirect" title="Maple software" href="https://en.wikipedia.org/wiki/Maple_software">Maple</a></li>
+<li><a title="IDL (programming language)" href="https://en.wikipedia.org/wiki/IDL_(programming_language)">IDL</a></li>
+</ul>
+<p>There are also&nbsp;<a title="Free software" href="https://en.wikipedia.org/wiki/Free_software">free</a>&nbsp;<a class="mw-redirect" title="Open source software" href="https://en.wikipedia.org/wiki/Open_source_software">open source</a>&nbsp;alternatives to MATLAB, in particular:</p>
+<ul>
+<li><a title="GNU Octave" href="https://en.wikipedia.org/wiki/GNU_Octave">GNU Octave</a></li>
+<li><a title="Scilab" href="https://en.wikipedia.org/wiki/Scilab">Scilab</a></li>
+<li><a title="FreeMat" href="https://en.wikipedia.org/wiki/FreeMat">FreeMat</a></li>
+<li><a title="Julia (programming language)" href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Julia</a></li>
+<li><a title="SageMath" href="https://en.wikipedia.org/wiki/SageMath">SageMath</a></li>
+</ul>
+<p>which are somewhat compatible with the MATLAB language.&nbsp;<a title="GNU Octave" href="https://en.wikipedia.org/wiki/GNU_Octave">GNU Octave</a>&nbsp;is unique from the others in that it aims to be drop-in compatible with MATLAB syntax-wise (see&nbsp;<a title="GNU Octave" href="https://en.wikipedia.org/wiki/GNU_Octave#MATLAB_compatibility">MATLAB Compatibility of GNU Octave</a>).</p>
+<p>Among other languages that treat arrays as basic entities (array programming languages) are:</p>
+<ul>
+<li><a title="APL (programming language)" href="https://en.wikipedia.org/wiki/APL_(programming_language)">APL</a></li>
+<li><a title="Fortran" href="https://en.wikipedia.org/wiki/Fortran">Fortran</a>&nbsp;90 and higher</li>
+<li><a title="S-Lang" href="https://en.wikipedia.org/wiki/S-Lang">S-Lang</a>, as well as the statistical languages&nbsp;<a title="R (programming language)" href="https://en.wikipedia.org/wiki/R_(programming_language)">R</a>&nbsp;and&nbsp;<a title="S (programming language)" href="https://en.wikipedia.org/wiki/S_(programming_language)">S</a></li>
+</ul>
+<p>There are also libraries to add similar functionality to existing languages, such as:</p>
+<ul>
+<li><a title="NumPy" href="https://en.wikipedia.org/wiki/NumPy">NumPy</a>/<a title="SciPy" href="https://en.wikipedia.org/wiki/SciPy">SciPy</a>/<a title="Matplotlib" href="https://en.wikipedia.org/wiki/Matplotlib">matplotlib</a>&nbsp;for&nbsp;<a title="Python (programming language)" href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a></li>
+<li><a title="Perl Data Language" href="https://en.wikipedia.org/wiki/Perl_Data_Language">Perl Data Language</a>&nbsp;for&nbsp;<a title="Perl" href="https://en.wikipedia.org/wiki/Perl">Perl</a></li>
+<li>SciLua/<a title="Torch (machine learning)" href="https://en.wikipedia.org/wiki/Torch_(machine_learning)">Torch</a>&nbsp;for&nbsp;<a title="Lua (programming language)" href="https://en.wikipedia.org/wiki/Lua_(programming_language)">Lua</a></li>
+<li>SciRuby for&nbsp;<a title="Ruby (programming language)" href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></li>
+<li><a title="IT++" href="https://en.wikipedia.org/wiki/IT%2B%2B">IT++</a>&nbsp;for&nbsp;<a title="C++" href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a></li>
+<li><a class="mw-redirect" title="ILNumerics.Net" href="https://en.wikipedia.org/wiki/ILNumerics.Net">ILNumerics</a>&nbsp;for&nbsp;<a title=".NET Framework" href="https://en.wikipedia.org/wiki/.NET_Framework">.NET</a></li>
+<li>Numeric.js for&nbsp;<a title="JavaScript" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+</ul>
+<h2><span id="Release_history" class="mw-headline">Release history</span></h2>
+<table class="wikitable">
+<tbody>
+<tr>
+<th>Version</th>
+<th>Release name</th>
+<th>Number</th>
+<th>Bundled&nbsp;<a title="Java virtual machine" href="https://en.wikipedia.org/wiki/Java_virtual_machine">JVM</a></th>
+<th>Year</th>
+<th>Release date</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td>MATLAB 1.0</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1984</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1986</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1987</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 3.5</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1990</td>
+<td>&nbsp;</td>
+<td>Ran on&nbsp;<a title="DOS" href="https://en.wikipedia.org/wiki/DOS">DOS</a>&nbsp;but needed at least a&nbsp;<a title="Intel 80386" href="https://en.wikipedia.org/wiki/Intel_80386">386</a>&nbsp;processor; version 3.5m needed&nbsp;<a class="mw-redirect" title="80387" href="https://en.wikipedia.org/wiki/80387">math coprocessor</a></td>
+</tr>
+<tr>
+<td>MATLAB 4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1992</td>
+<td>&nbsp;</td>
+<td>Ran on&nbsp;<a title="Windows 3.1x" href="https://en.wikipedia.org/wiki/Windows_3.1x">Windows 3.1x</a>&nbsp;and Macintosh</td>
+</tr>
+<tr>
+<td>MATLAB 4.2c</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1994</td>
+<td>&nbsp;</td>
+<td>Ran on Windows 3.1x, needed a&nbsp;<a class="mw-redirect" title="Math coprocessor" href="https://en.wikipedia.org/wiki/Math_coprocessor">math coprocessor</a></td>
+</tr>
+<tr>
+<td>MATLAB 5.0</td>
+<td>Volume 8</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1996</td>
+<td>December 1996</td>
+<td>Unified releases across all platforms</td>
+</tr>
+<tr>
+<td>MATLAB 5.1</td>
+<td>Volume 9</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td rowspan="2">1997</td>
+<td>May 1997</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 5.1.1</td>
+<td>R9.1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 5.2</td>
+<td>R10</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td rowspan="2">1998</td>
+<td>March 1998</td>
+<td>Last version working on classic Macs</td>
+</tr>
+<tr>
+<td>MATLAB 5.2.1</td>
+<td>R10.1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 5.3</td>
+<td>R11</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td rowspan="2">1999</td>
+<td>January 1999</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 5.3.1</td>
+<td>R11.1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>November 1999</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 6.0</td>
+<td>R12</td>
+<td rowspan="2">12</td>
+<td>1.1.8</td>
+<td>2000</td>
+<td>November 2000</td>
+<td>First release with bundled Java virtual machine (JVM)</td>
+</tr>
+<tr>
+<td>MATLAB 6.1</td>
+<td>R12.1</td>
+<td>1.3.0</td>
+<td>2001</td>
+<td>June 2001</td>
+<td>Last release for Windows 95</td>
+</tr>
+<tr>
+<td>MATLAB 6.5</td>
+<td>R13</td>
+<td rowspan="3">13</td>
+<td>1.3.1</td>
+<td>2002</td>
+<td>July 2002</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 6.5.1</td>
+<td>R13SP1</td>
+<td>&nbsp;</td>
+<td rowspan="2">2003</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 6.5.2</td>
+<td>R13SP2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Last release for Windows 98, Windows ME, IBM/AIX, Alpha/TRU64, and SGI/IRIX</td>
+</tr>
+<tr>
+<td>MATLAB 7</td>
+<td>R14</td>
+<td rowspan="4">14</td>
+<td>1.4.2</td>
+<td rowspan="2">2004</td>
+<td>June 2004</td>
+<td>Introduced anonymous and nested functions<br />
+<p>Re-introduced for Mac (under Mac OS X)</p>
+</td>
+</tr>
+<tr>
+<td>MATLAB 7.0.1</td>
+<td>R14SP1</td>
+<td>&nbsp;</td>
+<td>October 2004</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 7.0.4</td>
+<td>R14SP2</td>
+<td>1.5.0</td>
+<td rowspan="2">2005</td>
+<td>March 7, 2005</td>
+<td>Support for memory-mapped files</td>
+</tr>
+<tr>
+<td>MATLAB 7.1</td>
+<td>R14SP3</td>
+<td>1.5.0</td>
+<td>September 1, 2005</td>
+<td>First 64-bit version available for Windows XP 64-bit</td>
+</tr>
+<tr>
+<td>MATLAB 7.2</td>
+<td>R2006a</td>
+<td>15</td>
+<td>1.5.0</td>
+<td rowspan="2">2006</td>
+<td>March 1, 2006</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 7.3</td>
+<td>R2006b</td>
+<td>16</td>
+<td>1.5.0</td>
+<td>September 1, 2006</td>
+<td><a title="Hierarchical Data Format" href="https://en.wikipedia.org/wiki/Hierarchical_Data_Format">HDF5</a>-based MAT-file support</td>
+</tr>
+<tr>
+<td>MATLAB 7.4</td>
+<td>R2007a</td>
+<td>17</td>
+<td>1.5.0_07</td>
+<td rowspan="2">2007</td>
+<td>March 1, 2007</td>
+<td>New&nbsp;<code>bsxfun</code>&nbsp;function to apply element-by-element binary operation with singleton expansion enabled</td>
+</tr>
+<tr>
+<td>MATLAB 7.5</td>
+<td>R2007b</td>
+<td>18</td>
+<td>1.6.0</td>
+<td>September 1, 2007</td>
+<td>Last release for Windows 2000 and&nbsp;<a title="PowerPC" href="https://en.wikipedia.org/wiki/PowerPC">PowerPC</a>&nbsp;Mac; License Server support for Windows Vista;&nbsp;new internal format for P-code</td>
+</tr>
+<tr>
+<td>MATLAB 7.6</td>
+<td>R2008a</td>
+<td>19</td>
+<td>1.6.0</td>
+<td rowspan="2">2008</td>
+<td>March 1, 2008</td>
+<td>Major enhancements to object-oriented programming abilities with a new class definition syntax,&nbsp;and ability to manage namespaces with packages</td>
+</tr>
+<tr>
+<td>MATLAB 7.7</td>
+<td>R2008b</td>
+<td>20</td>
+<td>1.6.0_04</td>
+<td>October 9, 2008</td>
+<td>Last release for processors w/o SSE2. New Map data structure:&nbsp;upgrades to random number generators</td>
+</tr>
+<tr>
+<td>MATLAB 7.8</td>
+<td>R2009a</td>
+<td>21</td>
+<td>1.6.0_04</td>
+<td rowspan="2">2009</td>
+<td>March 6, 2009</td>
+<td>First release for Microsoft 32-bit &amp; 64-bit Windows 7, new external interface to .NET Framework</td>
+</tr>
+<tr>
+<td>MATLAB 7.9</td>
+<td>R2009b</td>
+<td rowspan="2">22</td>
+<td>1.6.0_12</td>
+<td>September 4, 2009</td>
+<td>First release for&nbsp;<a title="Mac OS X Snow Leopard" href="https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard#64-bit_architecture">Intel 64-bit Mac</a>, and last for&nbsp;<a title="Solaris (operating system)" href="https://en.wikipedia.org/wiki/Solaris_(operating_system)">Solaris</a>&nbsp;<a title="SPARC" href="https://en.wikipedia.org/wiki/SPARC">SPARC</a>; new use for the tilde operator (<code>~</code>) to ignore arguments in function calls</td>
+</tr>
+<tr>
+<td>MATLAB 7.9.1</td>
+<td>R2009bSP1</td>
+<td>1.6.0_12</td>
+<td rowspan="3">2010</td>
+<td>April 1, 2010</td>
+<td>bug fixes.</td>
+</tr>
+<tr>
+<td>MATLAB 7.10</td>
+<td>R2010a</td>
+<td>23</td>
+<td>1.6.0_12</td>
+<td>March 5, 2010</td>
+<td>Last release for&nbsp;<a title="Apple&ndash;Intel architecture" href="https://en.wikipedia.org/wiki/Apple%E2%80%93Intel_architecture">Intel 32-bit Mac</a></td>
+</tr>
+<tr>
+<td>MATLAB 7.11</td>
+<td>R2010b</td>
+<td rowspan="3">24</td>
+<td>1.6.0_17</td>
+<td>September 3, 2010</td>
+<td>Add support for enumerations</td>
+</tr>
+<tr>
+<td>MATLAB 7.11.1</td>
+<td>R2010bSP1</td>
+<td>1.6.0_17</td>
+<td rowspan="4">2011</td>
+<td>March 17, 2011</td>
+<td>bug fixes and updates</td>
+</tr>
+<tr>
+<td>MATLAB 7.11.2</td>
+<td>R2010bSP2</td>
+<td>1.6.0_17</td>
+<td>April 5, 2012</td>
+<td>bug fixes</td>
+</tr>
+<tr>
+<td>MATLAB 7.12</td>
+<td>R2011a</td>
+<td>25</td>
+<td>1.6.0_17</td>
+<td>April 8, 2011</td>
+<td>New&nbsp;<code>rng</code>&nbsp;function to control random number generation</td>
+</tr>
+<tr>
+<td>MATLAB 7.13</td>
+<td>R2011b</td>
+<td>26</td>
+<td>1.6.0_17</td>
+<td>September 1, 2011</td>
+<td>Access-change parts of variables directly in MAT-files, without loading into memory;&nbsp;increased maximum local workers with Parallel Computing Toolbox from 8 to 12</td>
+</tr>
+<tr>
+<td>MATLAB 7.14</td>
+<td>R2012a</td>
+<td>27</td>
+<td>1.6.0_17</td>
+<td rowspan="2">2012</td>
+<td>March 1, 2012</td>
+<td>Last version with 32-bit Linux support.</td>
+</tr>
+<tr>
+<td>MATLAB 8</td>
+<td>R2012b</td>
+<td>28</td>
+<td>1.6.0_17</td>
+<td>September 11, 2012</td>
+<td>First release with&nbsp;<a title="Ribbon (computing)" href="https://en.wikipedia.org/wiki/Ribbon_(computing)">Toolstrip</a>&nbsp;interface;&nbsp;MATLAB Apps.&nbsp;redesigned documentation system</td>
+</tr>
+<tr>
+<td>MATLAB 8.1</td>
+<td>R2013a</td>
+<td>29</td>
+<td>1.6.0_17</td>
+<td rowspan="2">2013</td>
+<td>March 7, 2013</td>
+<td>New&nbsp;<a title="Unit testing" href="https://en.wikipedia.org/wiki/Unit_testing">unit testing</a>&nbsp;framework</td>
+</tr>
+<tr>
+<td>MATLAB 8.2</td>
+<td>R2013b</td>
+<td>30</td>
+<td>1.7.0_11</td>
+<td>September 6, 2013</td>
+<td>Built in Java Runtime Environment (JRE) updated to version 7;&nbsp;New table data type</td>
+</tr>
+<tr>
+<td>MATLAB 8.3</td>
+<td>R2014a</td>
+<td>31</td>
+<td>1.7.0_11</td>
+<td rowspan="2">2014</td>
+<td>March 7, 2014</td>
+<td>Simplified compiler setup for building MEX-files; USB Webcams support in core MATLAB; number of local workers no longer limited to 12 with Parallel Computing Toolbox</td>
+</tr>
+<tr>
+<td>MATLAB 8.4</td>
+<td>R2014b</td>
+<td>32</td>
+<td>1.7.0_11</td>
+<td>October 3, 2014</td>
+<td>New class-based graphics engine (a.k.a. HG2);&nbsp;tabbing function in GUI;&nbsp;improved user toolbox packaging and help files;&nbsp;new objects for time-date manipulations;&nbsp;<a class="mw-redirect" title="Git (software)" href="https://en.wikipedia.org/wiki/Git_(software)">Git</a>-<a title="Apache Subversion" href="https://en.wikipedia.org/wiki/Apache_Subversion">Subversion</a>&nbsp;integration in IDE;&nbsp;<a title="Big data" href="https://en.wikipedia.org/wiki/Big_data">big data</a>&nbsp;abilities with&nbsp;<a title="MapReduce" href="https://en.wikipedia.org/wiki/MapReduce">MapReduce</a>&nbsp;(scalable to&nbsp;<a title="Apache Hadoop" href="https://en.wikipedia.org/wiki/Apache_Hadoop">Hadoop</a>);&nbsp;new&nbsp;<code>py</code>&nbsp;package for using&nbsp;<a title="Python (programming language)" href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>&nbsp;from inside MATLAB,&nbsp;new engine interface to call MATLAB from Python;&nbsp;several new and improved functions:&nbsp;<code>webread</code>&nbsp;(RESTful web services with JSON/XML support),&nbsp;<code>tcpclient</code>&nbsp;(socket-based connections),&nbsp;<code>histcounts</code>,&nbsp;<code>histogram</code>,&nbsp;<code>animatedline</code>, and others</td>
+</tr>
+<tr>
+<td>MATLAB 8.5</td>
+<td>R2015a</td>
+<td rowspan="2">33</td>
+<td>1.7.0_60</td>
+<td rowspan="3">2015</td>
+<td>March 5, 2015</td>
+<td>Last release supporting Windows XP and Windows Vista</td>
+</tr>
+<tr>
+<td>MATLAB 8.5</td>
+<td>R2015aSP1</td>
+<td>1.7.0_60</td>
+<td>October 14, 2015</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 8.6</td>
+<td>R2015b</td>
+<td>34</td>
+<td>1.7.0_60</td>
+<td>September 3, 2015</td>
+<td>New MATLAB execution engine (a.k.a. LXE);&nbsp;<code>graph</code>&nbsp;and&nbsp;<code>digraph</code>&nbsp;classes to work with graphs and networks;&nbsp;MinGW-w64 as supported compiler on Windows;&nbsp;Last version with 32-bit support</td>
+</tr>
+<tr>
+<td>MATLAB 9.0</td>
+<td>R2016a</td>
+<td>35</td>
+<td>1.7.0_60</td>
+<td rowspan="2">2016</td>
+<td>March 3, 2016</td>
+<td>Live Scripts: interactive documents that combine text, code, and output (in the style of&nbsp;<a title="Literate programming" href="https://en.wikipedia.org/wiki/Literate_programming">Literate programming</a>);&nbsp;App Designer: a new development environment for building apps (with new kind of UI figures, axes, and components);&nbsp;pause execution of running programs using a Pause Button</td>
+</tr>
+<tr>
+<td>MATLAB 9.1</td>
+<td>R2016b</td>
+<td>36</td>
+<td>1.7.0_60</td>
+<td>September 15, 2016</td>
+<td>define local functions in scripts;&nbsp;automatic expansion of dimensions (previously provided via explicit call to&nbsp;<code>bsxfun</code>);&nbsp;<code>tall</code>&nbsp;arrays for&nbsp;<a title="Big data" href="https://en.wikipedia.org/wiki/Big_data">Big data</a>;&nbsp;new&nbsp;<code>string</code>&nbsp;type;&nbsp;new functions to encode/decode&nbsp;<a title="JSON" href="https://en.wikipedia.org/wiki/JSON">JSON</a>;&nbsp;official MATLAB Engine API for Java</td>
+</tr>
+<tr>
+<td>MATLAB 9.2</td>
+<td>R2017a</td>
+<td>37</td>
+<td>1.7.0_60</td>
+<td rowspan="2">2017</td>
+<td>March 9, 2017</td>
+<td>MATLAB Online: cloud-based MATLAB desktop accessed in a web browser;&nbsp;double-quoted strings; new&nbsp;<code>memoize</code>&nbsp;function for&nbsp;<a title="Memoization" href="https://en.wikipedia.org/wiki/Memoization">Memoization</a>; expanded object properties validation;&nbsp;<a title="Mock object" href="https://en.wikipedia.org/wiki/Mock_object">mocking</a>&nbsp;framework for unit testing;&nbsp;MEX targets 64-bit by default; new&nbsp;<code>heatmap</code>&nbsp;function for creating&nbsp;<a title="Heat map" href="https://en.wikipedia.org/wiki/Heat_map">heatmap charts</a></td>
+</tr>
+<tr>
+<td>MATLAB 9.3</td>
+<td>R2017b</td>
+<td>38</td>
+<td>1.8.0_121</td>
+<td>September 21, 2017</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 9.4</td>
+<td>R2018a</td>
+<td>39</td>
+<td>1.8.0_144</td>
+<td rowspan="2">2018</td>
+<td>March 15, 2018</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 9.5</td>
+<td>R2018b</td>
+<td>40</td>
+<td>1.8.0_152</td>
+<td>September 12, 2018</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>MATLAB 9.6</td>
+<td>R2019a</td>
+<td>41</td>
+<td>1.8.0_181</td>
+<td rowspan="2">2019</td>
+<td>March 20, 2019</td>
+<td>MATLAB Projects.</td>
+</tr>
+<tr>
+<td>MATLAB 9.7</td>
+<td>R2019b</td>
+<td>42</td>
+<td>1.8.0_202</td>
+<td>September 11, 2019</td>
+<td>Introduction of 'arguments' block for input validation, and enabling of dot indexing into function outputs</td>
+</tr>
+<tr>
+<td>MATLAB 9.8</td>
+<td>R2020a</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>2020</td>
+<td>March 19, 2020</td>
+<td>Removal of Mupad</td>
+</tr>
+</tbody>
+</table>
+<p>The number (or release number) is the version reported by Concurrent License Manager program&nbsp;<a title="FlexNet Publisher" href="https://en.wikipedia.org/wiki/FlexNet_Publisher">FLEXlm</a>.</p>
+<p>For a complete list of changes of both MATLAB and official toolboxes, consult the MATLAB release notes.</p>
 
 
 </br>
