@@ -93,6 +93,28 @@
  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(54).pdf" style="text-decoration:none;">Model Predictive Control System Design and Implementation Using MATLAB</a></li>
 
 
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(55).pdf" style="text-decoration:none;">Smart Antennas with MATLAB</a></li>
+	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(56).pdf" style="text-decoration:none;">Mathematics for Business, Science, and Technology with MATLAB and Excel Computations</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(57).pdf" style="text-decoration:none;">Understanding Digital Signal Processing with MATLAB and Solutions</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(58).pdf" style="text-decoration:none;">Understanding LTE with MATLAB: From Mathematical Modeling to Simulation and Prototyping</a></li>
+
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(59).pdf" style="text-decoration:none;">Variational methods for engineers with Matlab</a></li>
+	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(60).pdf" style="text-decoration:none;">Virtual Reality and Animation for MATLAB and Simulink Users</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(61).pdf" style="text-decoration:none;">Mathematical Methods for Mechanics: A Handbook with MATLAB Experiments</a></li>
+
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(62).pdf" style="text-decoration:none;">Matlab by Example</a></li>
+
+
+
 
 
 	
