@@ -59,6 +59,16 @@
 	
  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(37).pdf" style="text-decoration:none;">Multivariable Calculus with MATLAB</a></li>
 	
+<li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(38).pdf" style="text-decoration:none;">Numerical Linear Algebra: A Concise Introduction with MATLAB and Julia </a></li>
+	
+<li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(39).pdf" style="text-decoration:none;">Optical Fiber Communications Systems: Theory and Practice with MATLAB and Simulink Models</a></li>
+  <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(40).pdf" style="text-decoration:none;">Pattern Recognition</a></li>
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(41).pdf" style="text-decoration:none;">Physics of Oscillations and Waves: With use of Matlab and Python</a></li>	
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(42).pdf" style="text-decoration:none;">Practical Biomedical Signal Analysis Using MATLAB</a></li>
+	
+ <li><a target="_blank" href="https://github.com/manjunath5496/MATLAB-Books/blob/master/mta(43).pdf" style="text-decoration:none;">Practical MATLAB Applications for Engineers</a></li>
+	
 	
 	
 	
