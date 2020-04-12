@@ -140,6 +140,32 @@
 
 </br>
 
+<div class="toctitle" dir="ltr" lang="en">
+<h2 id="mw-toc-heading">Contents</h2>
+<label class="toctogglelabel" for="toctogglecheckbox"></label></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Syntax"><span class="toctext">Syntax</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Variables"><span class="toctext">Variables</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Vectors_and_matrices"><span class="toctext">Vectors and matrices</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Structures"><span class="toctext">Structures</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Functions"><span class="toctext">Functions</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Function_handles"><span class="toctext">Function handles</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Classes_and_object-oriented_programming"><span class="toctext">Classes and object-oriented programming</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Graphics_and_graphical_user_interface_programming"><span class="toctext">Graphics and graphical user interface programming</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Interfacing_with_other_languages"><span class="toctext">Interfacing with other languages</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Alternatives"><span class="toctext">Alternatives</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Release_history"><span class="toctext">Release history</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Books"><span class="toctext">Books</span></a></li>
+</ul>
+
+</br>
+
+
+
 
 
 <h2 id= "Books">Books </h2>
