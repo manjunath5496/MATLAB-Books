@@ -314,7 +314,65 @@
 <span class="go">Hello!</span></pre>
 </div>
 
-
+<h2><span id="Graphics_and_graphical_user_interface_programming" class="mw-headline">Graphics and graphical user interface programming</span></h2>
+<ul>
+<li>
+<div class="mw-graph"><img class="mw-graph-img" src="1.png" alt="" /></div>
+</li>
+</ul>
+<p>MATLAB has tightly integrated graph-plotting features. For example, the function&nbsp;<em>plot</em>&nbsp;can be used to produce a graph from two vectors&nbsp;<em>x</em>&nbsp;and&nbsp;<em>y</em>. The code:</p>
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="n">x</span> <span class="p">=</span> <span class="mi">0</span><span class="p">:</span><span class="nb">pi</span><span class="o">/</span><span class="mi">100</span><span class="p">:</span><span class="mi">2</span><span class="o">*</span><span class="nb">pi</span><span class="p">;</span>
+<span class="n">y</span> <span class="p">=</span> <span class="nb">sin</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
+<span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+</pre>
+</div>
+<p>produces the following figure of the&nbsp;<a title="Sine wave" href="https://en.wikipedia.org/wiki/Sine_wave">sine function</a>:</p>
+<p><a class="image" href="2.png"><img src="2.png" srcset="2.png" alt="Matlab plot sin.svg" width="350" height="248" data-file-width="1052" data-file-height="744" /></a></p>
+<p>MATLAB supports three-dimensional graphics as well:</p>
+<table>
+<tbody>
+<tr>
+<td valign="top">
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="p">[</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">]</span> <span class="p">=</span> <span class="nb">meshgrid</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mf">0.25</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mf">0.25</span><span class="p">:</span><span class="mi">10</span><span class="p">);</span>
+<span class="n">f</span> <span class="p">=</span> <span class="n">sinc</span><span class="p">(</span><span class="nb">sqrt</span><span class="p">((</span><span class="n">X</span><span class="o">/</span><span class="nb">pi</span><span class="p">)</span><span class="o">.^</span><span class="mi">2</span><span class="o">+</span><span class="p">(</span><span class="n">Y</span><span class="o">/</span><span class="nb">pi</span><span class="p">)</span><span class="o">.^</span><span class="mi">2</span><span class="p">));</span>
+<span class="n">mesh</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">,</span><span class="n">f</span><span class="p">);</span>
+<span class="n">axis</span><span class="p">([</span><span class="o">-</span><span class="mi">10</span> <span class="mi">10</span> <span class="o">-</span><span class="mi">10</span> <span class="mi">10</span> <span class="o">-</span><span class="mf">0.3</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">xlabel</span><span class="p">(</span><span class="s">'{\bfx}'</span><span class="p">)</span>
+<span class="n">ylabel</span><span class="p">(</span><span class="s">'{\bfy}'</span><span class="p">)</span>
+<span class="n">zlabel</span><span class="p">(</span><span class="s">'{\bfsinc} ({\bfR})'</span><span class="p">)</span>
+<span class="n">hidden </span><span class="s">off</span>
+</pre>
+</div>
+</td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td valign="top">
+<div class="mw-highlight mw-highlight-lang-matlab mw-content-ltr" dir="ltr">
+<pre><span class="p">[</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">]</span> <span class="p">=</span> <span class="nb">meshgrid</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mf">0.25</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span><span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mf">0.25</span><span class="p">:</span><span class="mi">10</span><span class="p">);</span>
+<span class="n">f</span> <span class="p">=</span> <span class="n">sinc</span><span class="p">(</span><span class="nb">sqrt</span><span class="p">((</span><span class="n">X</span><span class="o">/</span><span class="nb">pi</span><span class="p">)</span><span class="o">.^</span><span class="mi">2</span><span class="o">+</span><span class="p">(</span><span class="n">Y</span><span class="o">/</span><span class="nb">pi</span><span class="p">)</span><span class="o">.^</span><span class="mi">2</span><span class="p">));</span>
+<span class="n">surf</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">,</span><span class="n">f</span><span class="p">);</span>
+<span class="n">axis</span><span class="p">([</span><span class="o">-</span><span class="mi">10</span> <span class="mi">10</span> <span class="o">-</span><span class="mi">10</span> <span class="mi">10</span> <span class="o">-</span><span class="mf">0.3</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">xlabel</span><span class="p">(</span><span class="s">'{\bfx}'</span><span class="p">)</span>
+<span class="n">ylabel</span><span class="p">(</span><span class="s">'{\bfy}'</span><span class="p">)</span>
+<span class="n">zlabel</span><span class="p">(</span><span class="s">'{\bfsinc} ({\bfR})'</span><span class="p">)</span>
+</pre>
+</div>
+</td>
+</tr>
+<tr>
+<td>This code produces a&nbsp;<strong><a class="mw-redirect" title="Wire frame model" href="https://en.wikipedia.org/wiki/Wire_frame_model">wireframe</a></strong>&nbsp;3D plot of the two-dimensional unnormalized&nbsp;<a title="Sinc function" href="https://en.wikipedia.org/wiki/Sinc_function">sinc function</a>:</td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td>This code produces a&nbsp;<strong>surface</strong>&nbsp;3D plot of the two-dimensional unnormalized&nbsp;<a title="Sinc function" href="https://en.wikipedia.org/wiki/Sinc_function">sinc function</a>:</td>
+</tr>
+<tr>
+<td><a class="image" href="3.png"><img src="3.png" srcset="3.png" alt="MATLAB mesh sinc3D.svg" width="512" height="384" data-file-width="512" data-file-height="384" /></a></td>
+<td>&nbsp;&nbsp;&nbsp;</td>
+<td><a class="image" href="4.png"><img src="4.png" srcset="4.png" alt="MATLAB surf sinc3D.svg" width="512" height="384" data-file-width="512" data-file-height="384" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>MATLAB supports developing&nbsp;<a title="Graphical user interface" href="https://en.wikipedia.org/wiki/Graphical_user_interface">graphical user interface</a>&nbsp;(GUI) applications.&nbsp;UIs can be generated either programmatically or using visual design environments such as&nbsp;<em>GUIDE</em>&nbsp;and&nbsp;<em>App Designer</em>.</p>
 
 
 
